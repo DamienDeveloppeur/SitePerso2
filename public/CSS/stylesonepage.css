@@ -262,7 +262,7 @@ footer img {
 
 
 }
-@media screen and (max-width: 1350px)
+@media all and (min-width: 601px) and (max-width: 1350px)
 {
     #accueil{
         width : 1350px;
@@ -277,7 +277,7 @@ footer img {
     }
 }
 
-@media screen and (max-width: 1900px)
+@media all and (min-width : 1351px) and (max-width: 1900px)
 {
     #accueil{
         width : 1900px;
@@ -295,4 +295,26 @@ footer img {
         width : 80px;
         height : 80px;
     }
+}
+
+@media all and (min-width : 1901px) and (max-width: 2500px)
+{
+
+    #accueil{
+        width : 2500px;
+    }
+    body {
+
+        width : 2500px;
+    }
+    
+    header {
+        width : 2500px;
+    }
+
+    header img{
+        width : 80px;
+        height : 80px;
+    }
+
 }

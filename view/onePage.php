@@ -8,9 +8,17 @@ if(!isset($_SESSION)){
 <head>
     <link rel="stylesheet" href="./public/CSS/stylesonepage.css">
     <link rel="stylesheet" href="./public/CSS/styles_police.css">
-    <link rel="stylesheet" media="screen and (max-width: 1350px)" href="./public/CSS/stylesonepage.css" />
+
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="./public/CSS/stylesonepage.css" />
-    <link rel="stylesheet" media="screen and (max-width: 1900px)" href="./public/CSS/stylesonepage.css" />
+    <link rel="stylesheet" media="all and (min-width: 601px) and (max-width: 1350px)" href="./public/CSS/stylesonepage.css" />
+    
+    <link rel="stylesheet" media="all and (min-width : 1351px) and (max-width 1900px) " href="./public/CSS/stylesonepage.css" />
+    <link rel="stylesheet" media="all and (min-width : 1901px) and (max-width 2500px) " href="./public/CSS/stylesonepage.css" />
+
+
+   
+
+
     <meta charset="utf-8" />
     <title>Site personnel</title>
     </head>
